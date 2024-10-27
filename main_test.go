@@ -1,5 +1,4 @@
-// Test the main function
-
+// Test
 package main
 
 import (
