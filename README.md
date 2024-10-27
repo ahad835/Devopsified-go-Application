@@ -8,10 +8,11 @@ This is a simple website written in Golang. It uses the `net/http` package to se
 To run the server, execute the following command:
 
 ```bash
-go run main.go
+go build -o mywebapp
+./mywebapp
 ```
 
-The server will start on port 8000. You can access it by navigating to `http://localhost:8000/courses` in your web browser.
+The server will start on port **8000**. You can access it by navigating to `http://localhost:8000/home` in your web browser.
 
 
 
