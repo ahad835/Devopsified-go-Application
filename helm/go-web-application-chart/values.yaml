@@ -1,0 +1,5 @@
+image:
+  repository: meahad/go-web-application
+  tag: latest
+  pullPolicy: IfNotPresent
+
