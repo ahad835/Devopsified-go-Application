@@ -27,6 +27,10 @@ I have built a multi-stage Docker image for this Go application. If you prefer t
 docker push meahad/go-web-application:latest
 ```
 
+## Screenshot
+
+![Application Screenshot](static/image.png)
+
 Feel free to clone, run, and customize this project to suit your needs!
 
 
