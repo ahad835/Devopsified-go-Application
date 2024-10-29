@@ -1,7 +1,8 @@
+# Devopsified-go-Application
+In this project, I set up a full DevOps pipeline for a Golang web application, automating deployment and management tasks. I containerized the app using a multi-stage Docker build to optimize its size and efficiency, then created Kubernetes manifests to define its deployment within a Kubernetes cluster. Using GitHub Actions for Continuous Integration (CI), I automated code testing and building, while Argo CD handled Continuous Delivery (CD), deploying updates to the cluster automatically.
 
-# Go Web Application
+To support multiple environments, I configured Helm charts, allowing smooth deployment across setups. The application is exposed using a NodePort service, and DNS mapping provides a user-friendly domain for easy access, creating a fully automated, scalable, and accessible deployment process.
 
-This is a simple website written in Golang. It uses the `net/http` package to serve HTTP requests.
 
 ## Running the server
 
@@ -13,6 +14,8 @@ go build -o mywebapp
 ```
 
 The server will start on port **8000**. You can access it by navigating to `http://localhost:8000/home` in your web browser.
+
+
 
 =======
 # go-web-application
